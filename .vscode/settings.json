@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/_output": true,
+    "**/build": true,
+  }
+}

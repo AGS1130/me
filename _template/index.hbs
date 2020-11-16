@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AGS1130 - Me</title>
+  <link rel="stylesheet">
+</head>
+
+<body>
+  <div class="page_wrap">
+    <div class="preloader">
+      <div class="centrize full-width">
+        <div class="vertical-center">
+          <div class="loader-inner line-scale-pulse-out">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background gradient">
+      <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <main class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+      <div class="card-started" id="home-card">
+        <div class="profile">
+          <div class="profile-content">
+            <div class="slide"></div>
+            <div class="image">
+              <img src="/static/img/logo-inverted.svg" alt="AGS1130" />
+            </div>
+            <div class="title">AGS1130</div>
+            <div class="subtitle subtitle-typed">Frontend Developer</div>
+            <div class="social">
+              {{{ socialLinks }}}
+            </div>
+          </div>
+          <div class="links">
+            <a href="/static/download/resume.pdf" class="link" download="Gregory Salinas - Resume">
+              <span class="text">Download Resume</span>
+              <span class="fas fa-file-download"></span>
+            </a>
+            <a href="mailto:ags1130@yahoo.com" class="link">
+              <span class="text">Contact Me</span>
+              <span class="fas fa-envelope"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Home Card -->
+      {{# innerCard "home" }}
+      {{/ innerCard }}
+    </main>
+  </div>
+
+  <script src=""></script>
+</body>
+
+</html>
