@@ -345,6 +345,7 @@ ul ul {
 }
 .card-started {
   position: relative;
+  min-height: 580px;
   float: left;
   width: 480px;
   height: 100%;
@@ -509,6 +510,7 @@ ul ul {
 .card-inner {
   padding: 0;
   position: absolute;
+  min-height: 550px;
   overflow: hidden;
   left: 480px;
   right: 0;
@@ -516,7 +518,7 @@ ul ul {
   bottom: 15px;
   width: auto;
   height: auto;
-  background: #fff;
+  background: #31313a;
   transform-origin: center left;
   opacity: 0;
   visibility: hidden;
@@ -1458,9 +1460,6 @@ a {
 }
 .card-started .profile .social a .fab {
   color: rgba(255, 255, 255, 0.55);
-}
-.card-inner {
-  background: #31313a;
 }
 .card-inner:after,
 .card-inner:before {
